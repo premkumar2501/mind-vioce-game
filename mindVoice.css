@@ -1,0 +1,209 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background:radial-gradient(rgb(228, 236, 245),rgb(235, 187, 115));
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+header{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    h1{
+        color: rgb(129, 129, 122);
+        text-shadow:1px 2px white;
+        border-bottom: 2px solid black;
+    }
+}
+
+/*---------------Ready play(firstPage)---------------*/
+
+.ready{
+    position: absolute;
+    top: 100px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100px;
+    div{
+        padding: 20px;
+        div{
+            display: flex;
+            justify-content: space-around;
+            margin-top: 10px;
+            .start{
+                border: none;
+                padding: 10px 15px;
+                background-color: rgb(7, 199, 7);
+                color: aliceblue;
+                border-radius: 5px;
+            }
+            .end{
+                border: none;
+                padding: 10px 15px;
+                background-color: rgb(216, 15, 15);
+                color: aliceblue;
+                border-radius: 5px;
+            }
+            .start:hover{
+                cursor: pointer;
+                box-shadow: 1px 1px 15px rgb(13, 211, 13);
+            }
+            .end:hover{
+                cursor: pointer;
+                box-shadow: 1px 1px 15px rgb(216, 15, 15);
+            }
+        }
+    }
+}
+
+/*----------- company options(second Page)-------------*/
+
+.companys{
+    display: none;
+    div{
+        width: 50%;
+        height: 100%;
+        margin-left: 31%;
+        ul{
+            list-style-type: square;
+            margin-left: 34%;
+            li{
+                font-weight: bold;
+                padding: 5px;
+            }
+        }
+        button{
+            border: none;
+            padding: 10px 20px;
+            background-color: rgb(56, 184, 235);
+            color: white;
+            border-radius: 5px;
+            margin-left: 33%;
+            margin-top: 10px;
+        }
+        button:hover{
+            background-color: rgb(0, 160, 223);
+        }
+    }
+}
+
+/*------------chick options--------------*/
+
+.chick{
+    min-width: 60%;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    background-color: rgba(0, 255, 255, 0.459);
+    border-radius: 15px;
+    box-shadow: 7px 11px 5px 2px rgb(99, 93, 93);
+    top: 73%;
+    left: 22%;
+    display: none;
+    div{
+        padding: 10px;
+        h4{
+            text-align: center;
+        }
+        .find{
+            display: flex;
+            justify-content: center;
+            button{
+                border: none;
+                background-color: orange;
+                padding: 5px 15px;
+                border-radius: 5px;
+            }
+            button:hover{
+                box-shadow: 0 0 15px orange;
+                transform: scale(0.9);
+            }
+        }
+    }
+    div .buttons{
+        display: flex;
+        justify-content: space-around;
+        margin-top: 15px;
+        .yes_btn{
+            border: none;
+            padding: 10px 25px;
+            border-radius: 5px;
+            background-color: rgb(14, 212, 14);
+            color: white;
+        }
+        .no_btn{
+            border: none;
+            padding: 10px 25px;
+            border-radius: 5px;
+            background-color: rgb(233, 16, 16);
+            color: white;
+        }
+        .yes_btn:hover{
+            cursor: pointer;
+            color: black;
+            transform: scale(1.1);
+        }
+        .no_btn:hover{
+            cursor: pointer;
+            color: black;
+            transform: scale(1.1);
+        }
+    }
+
+}
+
+/*-----------Output answer(third page)--------------*/
+
+.finalAns{
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgba(0, 0, 0, 0.61);
+    backdrop-filter: blur(20px);
+    position: absolute;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    display: none;
+    h1{
+        color: yellow;
+        text-align: center;
+        text-shadow:1px 2px blue;
+        background-color: rgb(62, 94, 88);
+        padding: 10px 0px;
+    }
+    .output{
+        height: 95vh;
+        display: flex;
+        justify-content: center;
+        margin-top: 100px;
+        img{
+            border-radius: 20px;
+            box-shadow: 0px 0px 20px 20px black;
+        }
+    }
+    .playagain{
+        position: absolute;
+        top: 70%;
+        left: 43%;
+        background-color: aqua;
+        border: none;
+        border-radius: 5px;
+        padding: 10px 60px;
+        a{
+            text-decoration: none;
+            font-size: 19px;
+            color: black;
+            font-weight: bold;
+        }
+    }
+    .playagain:hover{
+        background-color: rgb(130, 252, 252);
+    }
+}

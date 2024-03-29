@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MindVoice Game</title>
+    <link rel="stylesheet" href="mindVoice.css">
+    <script defer src="mindvoice.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Welcome to GAME</h1>
+    </header>
+    <main>
+        <div class="ready" id="ready">
+            <div>
+                <h3>Are you ready to play this game?</h3>
+                <div>
+                    <button class="start" onclick="start()">Yes</button>
+                    <button class="end" onclick="end()">No</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="companys" id="companys">
+            <div>
+                <ul>
+                    <li>Volkswagan</li>
+                    <li>Renault</li>
+                    <li>TATA</li>
+                    <li>Mahindra</li>
+                    <li>Benz</li>
+                    <li>Hyundai</li>
+                    <li>Honda</li>
+                    <li>Audi</li>
+                    <li>BMW</li>
+                    <li>Maruthi Suzuki</li>
+                    <li>Toyota</li>
+                    <li>Ford</li>
+                </ul>
+                <h2>[Any one company name choice in your mind]</h2>
+                <button onclick="demo()" id="okey">Ok</button>
+            </div>
+        </div>
+
+        <div class="chick" id="chickBox">
+            <div>
+                <div id="chick" class="find"></div>
+                <h4 id="h4">Do you have selected in the list(yes or no)?</h4>
+                <div class="buttons" id="ansButton">
+                    <button class="yes_btn" onclick="first()" id="first">Yes</button>
+                    <button class="no_btn" onclick="nobrand()" id="second">No</button>
+                </div>
+            </div>
+        </div>
+
+        <div id="final" class="finalAns">
+            <h1>Your answer</h1>
+            <div class="output"></div>
+            <div class="playagain">
+                <a href="mindvoice_game.html">Play Again</a>
+            </div>
+        </div>
+    </main>
+</body>
+</html>

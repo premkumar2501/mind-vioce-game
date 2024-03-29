@@ -141,40 +141,40 @@ function change(value){
         final.style.display = 'block'
         console.log(ans)
         if(ans === 'volkswagan'){
-            output.innerHTML = '<img src="../imgs/vw.jpg" width="400px" height="300px">'
+            output.innerHTML = '<img src="./imgs/vw.jpg" width="400px" height="300px">'
         }
         else if(ans === 'Toyota'){
-            output.innerHTML = '<img src="../imgs/toyota.jpg" width="350px" height="210px">'
+            output.innerHTML = '<img src="./imgs/toyota.jpg" width="350px" height="210px">'
         }
         else if(ans === 'Mahindra'){
-            output.innerHTML = '<img src="../imgs/mahindra.png" width="350px" height="200px">'
+            output.innerHTML = '<img src="./imgs/mahindra.png" width="350px" height="200px">'
         }
         else if(ans === 'Benz'){
-            output.innerHTML = '<img src="../imgs/benz.jpg" width="350px" height="380px">'
+            output.innerHTML = '<img src="./imgs/benz.jpg" width="350px" height="380px">'
         }
         else if(ans === 'Tata'){
-            output.innerHTML = '<img src="../imgs/tata.png" width="350px" height="200px">'
+            output.innerHTML = '<img src="./imgs/tata.png" width="350px" height="200px">'
         }
         else if(ans === 'Honda'){
-            output.innerHTML = '<img src="../imgs/hondapng.png" width="350px" height="200px">'
+            output.innerHTML = '<img src="./imgs/hondapng.png" width="350px" height="200px">'
         }
         else if(ans === 'Hyundai'){
-            output.innerHTML = '<img src="../imgs/hyundai.jpg" width="350px" height="200px">'
+            output.innerHTML = '<img src="./imgs/hyundai.jpg" width="350px" height="200px">'
         }
         else if(ans === 'Audi'){
-            output.innerHTML = '<img src="../imgs/audi2.jpg" width="350px" height="200px">'
+            output.innerHTML = '<img src="./imgs/audi2.jpg" width="350px" height="200px">'
         }
         else if(ans === 'BMW'){
-            output.innerHTML = '<img src="../imgs/bmw.png" width="350px" height="230px">'
+            output.innerHTML = '<img src="./imgs/bmw.png" width="350px" height="230px">'
         }
         else if(ans === 'Ford'){
-            output.innerHTML = '<img src="../imgs/ford3.jpg" width="350px" height="200px">'
+            output.innerHTML = '<img src="./imgs/ford3.jpg" width="350px" height="200px">'
         }
         else if(ans === 'Suzuki'){
-            output.innerHTML = '<img src="../imgs/suzuki.jpg" width="350px" height="240px">'
+            output.innerHTML = '<img src="./imgs/suzuki.jpg" width="350px" height="240px">'
         }
         else if(ans === 'Renault'){
-            output.innerHTML = '<img src="../imgs/renault2.jpg" width="350px" height="250px">'
+            output.innerHTML = '<img src="./imgs/renault2.jpg" width="350px" height="250px">'
         }
     }
 

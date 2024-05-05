@@ -6,6 +6,14 @@ function start(){
     readyGame.style.display = 'none'
 }
 
+function end(){
+    let h1 = document.getElementById('h1')
+    h1.innerHTML = 'See you Next time.'
+    setInterval(() => {
+        h1.style.display = 'none'
+    },2000)
+}
+
 let collection = ['volkswagan','Toyota','Mahindra','Tata','Hyundai','Honda','Renault','Benz','Audi','BMW','Ford','Suzuki']
         
 let list1=['("BMW , ford,renault , honda , benz , suzuki")','("mahindra , hyundai , honda , renault , audi , suzuki")',

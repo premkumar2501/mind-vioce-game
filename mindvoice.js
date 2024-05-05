@@ -2,7 +2,7 @@
 let readyGame = document.getElementById('ready')
 function start(){
     let brands = document.getElementById('companys')
-    brands.style.display = 'block'
+    brands.style.visibility = 'visible'
     readyGame.style.display = 'none'
 }
 
@@ -117,10 +117,12 @@ function change(value){
     function demo(){
         let div = document.getElementById('chickBox')
         let chance = document.getElementById('okey')
+        let h2 = document.getElementById('h2')
         let cmd = chance.innerHTML
         change(cmd)
-        div.style.display = 'block'
+        div.style.visibility= 'visible'
         chance.style.display = 'none'
+        h2.style.visibility = 'hidden'
     }
     function first(){
         let cls1 = document.querySelector('#first')
